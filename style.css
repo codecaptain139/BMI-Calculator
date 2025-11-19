@@ -6,11 +6,10 @@ body {
 }
 
 .container {
-    /* border: 1px solid red; */
-    width: 575px;
-    /* height: 825px; */
+    width: 450px;
     background-color: #97973d;
-    padding-left: 200px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #height,
@@ -21,8 +20,7 @@ body {
 }
 
 #weight-guide{
-    /* border: 2px solid black; */
-    margin-left: 75px;
+    text-align: center;
     margin-top: 25px;
 }
 
@@ -34,17 +32,17 @@ body {
 }
 
 button {
+  display: block;
+  margin: 25px auto 0;
   width: 150px;
   height: 35px;
-  margin-left: 90px;
-  margin-top: 25px;
   background-color: #fff;
-  text-align: center;
   border-radius: 8px;
   color: #212121;
   text-decoration: none;
   border: 2px solid #212121;
-  font-size: 25px;
+  font-size: 15px;
+  text-align: center;
 }
 
 button:hover{
@@ -52,7 +50,6 @@ button:hover{
 }
 
 h1 {
-  padding-left: 15px;
   padding-top: 25px;
-  
+  text-align: center;
 }
